@@ -1,0 +1,55 @@
+# Machine Learning Syllabus Overview
+
+This section outlines the topics and subtopics covered in the AI Tutor system, visualized as a tree structure using Mermaid.js.
+
+```mermaid
+graph TD
+    A[Machine Learning Syllabus] --> B(Logistic Regression)
+    B --> B1(Introduction)
+    B --> B2(Mathematical Foundation)
+    B --> B3(Cost Function and Optimization)
+    B --> B4(Regularization)
+    B --> B5(Multiclass Logistic Regression)
+    B --> B6(Implementation)
+
+    A --> C(k-Nearest Neighbors)
+    C --> C1(Introduction)
+    C --> C2(Distance Metrics)
+    C --> C3(Choosing k)
+    C --> C4(Algorithm Mechanics)
+    C --> C5(Scaling and Normalization)
+    C --> C6(Implementation)
+
+    A --> D(Random Forest)
+    D --> D1(Introduction)
+    D --> D2(Bootstrap Aggregation)
+    D --> D3(Feature Randomness)
+    D --> D4(Voting and Averaging)
+    D --> D5(Hyperparameters)
+    D --> D6(Implementation)
+
+    A --> E(Decision Trees)
+    E --> E1(Introduction)
+    E --> E2(Splitting Criteria)
+    E --> E3(Tree Construction)
+    E --> E4(Pruning)
+    E --> E5(Prediction)
+    E --> E6(Implementation)
+
+    A --> F(Naïve Bayes)
+    F --> F1(Introduction)
+    F --> F2(Probability Basics)
+    F --> F3(Gaussian Naïve Bayes)
+    F --> F4(Multinomial Naïve Bayes)
+    F --> F5(Bernoulli Naïve Bayes)
+    F --> F6(Implementation)
+
+    A --> G(Support Vector Machines)
+    G --> G1(Introduction)
+    G --> G2(Linear SVM)
+    G --> G3(Kernel Trick)
+    G --> G4(Mathematical Foundation)
+    G --> G5(Regularization and Cost)
+    G --> G6(Implementation)
+
+    
